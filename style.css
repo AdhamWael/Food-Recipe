@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fafafa;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card{
+    width: 640px;
+    height: 700px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 24px rgba(0, 0, 0, 0.15);
+    background-color: #fafafa;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-img{
+    background-image: url(https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/eggs-breakfast-avocado-1296x728-header.jpg?w=1155&h=1528);
+    background-size: cover;
+    height: 400px;
+}
+
+.card .card-text{
+    padding: 30px 50px;
+}
+
+.card .card-text .card-title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #313135;
+}
+
+.card .card-text .recipe-desc{
+    padding-top: 20px;
+    color: #59595C;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #f2f2f2;
+    background-color: #0b6e4f;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 20px;
+    box-shadow: 2px 4px 12px rgba(10, 88, 64, 0.2);
+}
+
+.btn:hover{
+    box-shadow: 2px 4px 12px rgba(10, 88, 64, 0.7);
+}
